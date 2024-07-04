@@ -11,3 +11,46 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.main{
+  background: #b2bec3;
+  animation: ab2c9d1d 20s ease infinite;
+  background-size: 200% 200%
+}
+@keyframes ab2c9d1d {
+  0% {
+    background-position: 25% 50%;
+    background-position-x: 25%;
+    background-position-y: 50%;
+}
+50% {
+  background-position: 75% 50%;
+  background-position-x: 75%;
+  background-position-y: 50%;
+}
+100% {
+  background-position: 25% 50%;
+  background-position-x: 25%;
+  background-position-y: 50%;
+}
+}
+.holder {
+  /* border: 1px solid #000; */
+  height: 200px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position:relative;
+  margin:10px;
+} 
+.mask {
+  position: absolute;
+  top:-30px;
+  left:1px;
+  display: flex;
+  width:50%;
+  height: 1px;
+  background-color:#fff;
+}
